@@ -4,14 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Fullstackasia" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Fullstackasia" %>">
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
+     <%= render 'layouts/navigation' %>
     <main role="main">
        <%= render 'layouts/messages' %>
        <%= yield %>

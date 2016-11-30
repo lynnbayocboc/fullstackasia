@@ -23,6 +23,7 @@ gem 'bootstrap-sass'
 gem 'bourbon'
 gem 'devise'
 gem 'high_voltage'
+gem 'jquery-easing-rails'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
