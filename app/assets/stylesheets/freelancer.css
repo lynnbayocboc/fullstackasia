@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #ffffff;
   outline: none;
 }
 h1,
@@ -54,7 +54,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #ffffff;
   color: white;
 }
 hr.star-primary {
@@ -289,7 +289,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #;ffffff
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -371,7 +371,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
+  background-color: #ffffff;
   border-color: #18BC9C;
   font-weight: 700;
 }
@@ -404,7 +404,7 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
+  background-color: #ffffffC;
   border-color: #18BC9C;
 }
 .btn-success .badge {
