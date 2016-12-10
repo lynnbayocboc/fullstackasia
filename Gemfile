@@ -24,6 +24,7 @@ gem 'bourbon'
 gem 'devise'
 gem 'high_voltage'
 gem 'jquery-easing-rails'
+gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
